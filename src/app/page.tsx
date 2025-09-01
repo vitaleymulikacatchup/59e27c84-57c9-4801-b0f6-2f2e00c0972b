@@ -16,7 +16,7 @@ export default function Home() {
       <HowToBuy2D variant="simple" />
       <NumberGridTokenomics title="Key Metrics" description="Important values and stats regarding the tokenomics of MemePulse." kpiItems={[{ value: "$1M", description: "Total Market Cap" }, { value: "1B", description: "Total Supply" }, { value: "500K", description: "Circulating Supply" }]} />
       <YearRoadmapTimeline items={[{ year: "2023", title: "Launch", description: "Our journey begins here!" }, { year: "2024", title: "Expansion", description: "Growing our community and offerings." }, { year: "2025", title: "Mainstream Adoption", description: "Aim to be the next big name in memecoins!" }]} className="bg-transparent" />
-      <FooterLogoEmphasis logoSrc="/images/logo.svg" logoAlt="MemePulse Logo" columns={[{ items: [{ label: "Terms of Service", onClick: () => {} }, { label: "Privacy Policy", onClick: () => {} }, { label: "Contact Us", onClick: () => {} }] }]} copyrightText="© 2023 MemePulse. All rights reserved." onPrivacyClick={() => {}} className=" bg-transparent" containerClassName="p-4" logoClassName="h-10 p-2" columnsClassName="grid grid-cols-3 gap-4" columnClassName="flex flex-col" itemClassName="text-white" />
+      <FooterLogoEmphasis logoSrc="/images/logo.svg" logoAlt="MemePulse Logo" columns={[{ items: [{ label: "Terms of Service", onClick: () => {} }, { label: "Privacy Policy", onClick: () => {} }, { label: "Contact Us", onClick: () => {} }] }]} onPrivacyClick={() => {}} className=" bg-transparent" containerClassName="p-4" logoClassName="h-10 p-2" columnsClassName="grid grid-cols-3 gap-4" columnClassName="flex flex-col" itemClassName="text-white" />
     </>
   );
 }
